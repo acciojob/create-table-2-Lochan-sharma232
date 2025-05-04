@@ -5,6 +5,8 @@ function createTable(data,columns) {
 	//table.innerHTML='';
 	//create table rows
 	let tbody=table.createTbody()
+	let row=table.insertRow(i);
+	let column=table.insertColumn(j);
 	data.forEach(item=>{
 		
 	})
