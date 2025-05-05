@@ -2,14 +2,14 @@ function createTable(data,columns) {
 	let rn=prompt("Input number of rows");
 	let cn=prompt("Input number of columns");
 	let table=document.getElementById("myTable");
-	//table.innerHTML='';
+	table.innerHTML='';
 	//create table rows
 	let tbody=document.createElement('tbody');
 	table.appendChild(tbody);
-for(let i=0;i<=2;i++){
+for(let i=0;i<=rn;i++){
 	let row=document.createElement('tr');
 	tbody.appendChild(row);
-	for(let j=0;j<=2;j++){
+	for(let j=0;j<=cn;j++){
 		let cell=document.createElement('td');
 		cell.textContent=`Row-${i} Column-${j}`;
 	    row.appendChild(cell);
