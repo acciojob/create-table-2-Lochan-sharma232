@@ -12,7 +12,7 @@ for(i=0;i<=rn;i++){
 	for(j=0;j<=cn;j++){
 		let cell=document.createElement('td');
 		cell.textContent=`Row-${i} Cell-${j}`;
-	    row.appendChild(column);
+	    row.appendChild(cell);
 	}
 }
 	
