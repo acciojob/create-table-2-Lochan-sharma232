@@ -11,6 +11,7 @@ for(i=0;i<=rn;i++){
 	tbody.appendChild(row);
 	for(j=0;j<=cn;j++){
 		let column=document.createElement('td');
+		cell.textContent=`Row-${i} Column-${j}`;
 	    row.appendChild(column);
 	}
 }
