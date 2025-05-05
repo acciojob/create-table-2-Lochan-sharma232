@@ -4,7 +4,7 @@ function createTable(data,columns) {
 	let table=document.getElementById("myTable");
 	//table.innerHTML='';
 	//create table rows
-	let tbody=table.createElement('tbody');
+	let tbody=document.createElement('tbody');
 	table.appendChild(tbody);
 for(i=0;i<=rn;i++){
 	let row=document.createElement('tr');
