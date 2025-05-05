@@ -6,11 +6,13 @@ function createTable(data,columns) {
 	//create table rows
 	let tbody=table.createElement('tbody');
 	table.appendChild(tbody);
-	let row=table.insertRow(i);
-	let column=table.insertColumn(j);
-	data.forEach(item=>{
-		
-	})
-    //Write your code here
-  
+for(i=0;i<=rn;i++){
+	let row=document.createElement('tr');
+	tbody.appendChild(row);
+	for(j=0;j<=cn;j++){
+		let column=document.createElement('td');
+	    row.appendChild(column);
+	}
+}
+	
 }
