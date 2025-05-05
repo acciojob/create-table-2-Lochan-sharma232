@@ -6,10 +6,10 @@ function createTable(data,columns) {
 	//create table rows
 	let tbody=document.createElement('tbody');
 	table.appendChild(tbody);
-for(i=0;i<=2;i++){
+for(i=0;i<=n;i++){
 	let row=document.createElement('tr');
 	tbody.appendChild(row);
-	for(j=0;j<=2;j++){
+	for(j=0;j<=n;j++){
 		let cell=document.createElement('td');
 		cell.textContent=`Row-${i} Column-${j}`;
 	    row.appendChild(cell);
